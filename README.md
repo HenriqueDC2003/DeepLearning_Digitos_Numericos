@@ -33,30 +33,30 @@ Primeiro, clone este repositório para o seu ambiente local:
 git clone (https://github.com/SeuUsuario/SeuRepositorio.git)
 cd SeuRepositorio
 
-# Criar o ambiente virtual
+### Criar o ambiente virtual
 python -m venv .venv
 
-# Ativar o ambiente virtual (Windows)
+### Ativar o ambiente virtual (Windows)
 .\.venv\Scripts\activate
 
-# Ativar o ambiente virtual (macOS/Linux)
+### Ativar o ambiente virtual (macOS/Linux)
 source ./.venv/bin/activate
 
-# Instalar as Dependências
+### Instalar as Dependências
 pip install -r requirements.txt
 
-# Treinamento do Modelo
+### Treinamento do Modelo
 O modelo já foi treinado e o arquivo modelo_mnist_custom.h5 está incluído na pasta models/. No entanto, se você quiser re-treinar o modelo ou verificar o processo de treinamento:
 
-# Certifique-se de que o ambiente virtual está ativado.
+### Certifique-se de que o ambiente virtual está ativado.
 
-# Navegue até o diretório src/:
+### Navegue até o diretório src/:
 cd src
 
-# Execute o script de treinamento:
+### Execute o script de treinamento:
 python treino_mnist.py
 
-# Este script irá:
+### Este script irá:
 Baixar o dataset MNIST (se não estiver disponível localmente).
 Pré-processar os dados.
 Construir e treinar o modelo de rede neural.
@@ -65,12 +65,12 @@ Plotar gráficos de acurácia e perda durante o treinamento.
 Salvar a melhor versão do modelo treinado como modelo_mnist_custom.h5 dentro da pasta ../models/.
 
 
-# Reconhecimento (Predição) de Dígitos
+### Reconhecimento (Predição) de Dígitos
 
-# Execute o script de predição no diretório src/:
+### Execute o script de predição no diretório src/:
 python prever_mnist.py
 
-# Este script irá:
+### Este script irá:
 Carregar o modelo modelo_mnist_custom.h5 da pasta ../models/.
 Selecionar aleatoriamente uma imagem do conjunto de testes do MNIST.
 Exibir a imagem e a predição do modelo (com confiança), comparando-a com o rótulo real.
