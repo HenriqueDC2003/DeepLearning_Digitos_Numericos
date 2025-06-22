@@ -30,9 +30,9 @@ Siga os passos abaixo para configurar o ambiente e rodar o projeto.
 
 Primeiro, clone este repositório para o seu ambiente local:
 
-git clone (https://github.com/SeuUsuario/SeuRepositorio.git)](https://github.com/HenriqueDC2003/DeepLearning_Digitos_Numericos-.git)
+git clone (https://github.com/SeuUsuario/SeuRepositorio.git)](https://github.com/HenriqueDC2003/DeepLearning_Digitos_Numericos.git)
 
-cd SeuRepositorio
+cd 'DeepLearning_Digitos_Numericos'
 
 ### Criar o ambiente virtual
 python -m venv .venv
