@@ -78,6 +78,6 @@ Exibir a imagem e a predição do modelo (com confiança), comparando-a com o r�
 Mostrar as probabilidades detalhadas para cada dígito (0-9).
 
 ### Autores
-> Henrique Duarte Corrêa
-> Victor Gomes Fanti
-> Vinícius Schoen Freiry
+* Henrique Duarte Corrêa
+* Victor Gomes Fanti
+* Vinícius Schoen Freiry
