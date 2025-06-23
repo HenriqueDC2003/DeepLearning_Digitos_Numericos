@@ -76,3 +76,8 @@ Carregar o modelo modelo_mnist_custom.h5 da pasta ../models/.
 Selecionar aleatoriamente uma imagem do conjunto de testes do MNIST.
 Exibir a imagem e a predição do modelo (com confiança), comparando-a com o rótulo real.
 Mostrar as probabilidades detalhadas para cada dígito (0-9).
+
+### Autores
+> Henrique Duarte Corrêa
+> Victor Gomes Fanti
+> Vinícius Schoen Freiry
